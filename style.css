@@ -6,7 +6,10 @@ body {
     border: solid red;
     background-color: green;
     color: white;
-    vertical-align: top;
     text-align: center;
     height: 150px;
+    top: 0;
+}
+#minha_Foto {
+    
 }
