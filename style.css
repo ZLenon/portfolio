@@ -17,7 +17,7 @@ body {
 }
 
 #licoes_aprendidas {
-    background-color: rgb(240, 197, 57);
+    background-color: rgb(141, 224, 103);
     font-family: monospace;
     font-size: 16px;
     border: 1px solid black;
@@ -26,7 +26,7 @@ body {
     height: auto;
 }
 #licoes_a_aprender {
-    background-color: rgb(240, 197, 57);
+    background-color: rgb(104, 243, 111);
     font-size: 16px;
     font-family: monospace;
     border: 1px solid black;
@@ -34,4 +34,27 @@ body {
     text-align: left;
     width: 150px;
     height: auto;
+}
+
+#aside {
+    display: inline-block;    
+    background-color: rgb(207, 255, 205);
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    margin-right: 55%;
+}
+
+#article {
+    display: inline-block;
+    background-color: rgb(236, 233, 32);
+    font-family: serif;
+    color: rgb(0, 0, 0);
+    margin: 10px 50% 10px 10px;
+    letter-spacing: 1px;
+}
+
+#minha_Foto {
+    border: 2px dashed rgb(5, 240, 161);
+    border-radius: 50%;
+    
 }
