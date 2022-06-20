@@ -15,3 +15,23 @@ body {
     border: 2px solid rgb(1, 53, 36);
     text-align: center;
 }
+
+#licoes_aprendidas {
+    background-color: rgb(240, 197, 57);
+    font-family: monospace;
+    font-size: 16px;
+    border: 1px solid black;
+    display: inline-block;
+    width: 150px;
+    height: auto;
+}
+#licoes_a_aprender {
+    background-color: rgb(240, 197, 57);
+    font-size: 16px;
+    font-family: monospace;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+    height: auto;
+}
