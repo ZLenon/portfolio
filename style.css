@@ -13,6 +13,7 @@ body {
 }
 
 #link {
+    padding: 1px 1px 1px 1px;
     border: 1px solid black;
     background-color: bisque;
 }
