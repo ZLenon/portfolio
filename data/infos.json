@@ -1,0 +1,22 @@
+{
+  "nome": "Lenon Nascimento Cardoso",
+  "idade": 34,
+  "sobre-min": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quia rerum animi consequuntur libero earum. Alias, magnam. Amet eligendi aliquid, eum cum earum consectetur sunt saepe quos dolore vero quidem? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad iusto eveniet odio tempore veritatis perferendis illum nihil numquam omnis? Soluta tempore reprehenderit modi nemo facere a exercitationem nulla ipsum voluptatem?",
+  "linkedin": "https://www.linkedin.com/in/lenonnascimento/",
+  "github": "https://github.com/ZLenon",
+  "telefone": "018 98160-4566",
+  "projetos": {
+    "javascript": {
+      "html-forms-scola-magia": {
+        "repositorio": "https://github.com/ZLenon/html-forms-scola-magia",
+        "link": "https://zlenon.github.io/html-forms-scola-magia/",
+        "imagem": "../images/thumbs/TrybeWarts.png"
+      },
+      "Ragnarok-Charts": {
+        "repositorio": "https://github.com/ZLenon/Ragnarok-Charts",
+        "link": "https://zlenon.github.io/Ragnarok-Charts/",
+        "imagem": "../images/thumbs/Ragnarok-Charts.png"
+      }
+    }
+  }
+}
