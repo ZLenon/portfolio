@@ -1,12 +1,19 @@
 {
   "nome": "Lenon Nascimento Cardoso",
   "idade": 34,
-  "sobre-min": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quia rerum animi consequuntur libero earum. Alias, magnam. Amet eligendi aliquid, eum cum earum consectetur sunt saepe quos dolore vero quidem? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad iusto eveniet odio tempore veritatis perferendis illum nihil numquam omnis? Soluta tempore reprehenderit modi nemo facere a exercitationem nulla ipsum voluptatem?",
+  "sobre-min": "Sou formado em Desenvolvimento Web FullStack pela escola Trybe, esta oferece 1500 horas de formação que aborda fundamentos de desenvolvimento web, desenvolvimento, Front-end, Back-end, ciência da computação, engenharia de software, metodologias ágeis, habilidades comportamentais e iniciativas de carreira e empregabilidade.",
+  "habilidades": "Python, TypeScript, Javascript, React, Testes com RTL, Redux com React, Context API, React Hooks, Docker, banco de dados SQL e NoSQL, Node.js e Express.js, construção de API's, REST FULL, JWT, CHAI, MOCHA, ORM, POO, SOLID e AWS praticioner.",
   "linkedin": "https://www.linkedin.com/in/lenonnascimento/",
+  "e-mail": "lenoninformatica@gmail.com",
+  "qualidades": "cooperativo, consistente, prático, racional",
+  "interesses": "progamação, tecnologia, IA, religiosidade",
+  "hobbies": "caminhadas, atividade fisica",
   "github": "https://github.com/ZLenon",
   "telefone": "018 98160-4566",
-  "projetos": {
-    "javascript": {
+  "foto": "../images/lenon.png",
+  "profissão": "Desenvolvedor Full/Stack",
+  "projetos": [{
+    "javascript": [{
       "html-forms-scola-magia": {
         "repositorio": "https://github.com/ZLenon/html-forms-scola-magia",
         "link": "https://zlenon.github.io/html-forms-scola-magia/",
@@ -17,6 +24,6 @@
         "link": "https://zlenon.github.io/Ragnarok-Charts/",
         "imagem": "../images/thumbs/Ragnarok-Charts.png"
       }
-    }
-  }
+    }]
+  }]
 }
