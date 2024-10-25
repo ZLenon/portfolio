@@ -1,22 +1,64 @@
-.root {
+:root {
+  --sombra-texto: 2px 2px 3px rgba(0,0,0,0.6);
+  --sombra-caixa: 10px 9px 14px 0px rgba(0,0,0,0.75);
+  --cor-gradiente: linear-gradient(0deg,#922d18 20%, #682e23 80%);
+  --cor-radial-gradient: radial-gradient(ellipse farthest-corner at center center, #922d18 0%, #682e23 80%);
+  --cor-secundaria: #922d18;
+  --cor-terciaria: #682E23;
+  --cor-body: rgb(225, 225, 225);
+}
 
+body {
+  background-color: var(--cor-body);
+  color: rgb(190, 190, 190);
 }
 
 .infos-basic-box {
   text-align: center;
-  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  text-shadow: var(--sombra-texto);
 }
 
 #foto-pessoal{
   border-radius: 75px;
+  border: 1px solid #c0c0c0;
+  box-shadow: var(--sombra-caixa); 
+  margin: 15px;
   border: 1px solid black;
-  box-shadow: 10px 9px 14px 0px rgba(0,0,0,0.75);
-  
 }
 
 .cabeçalho {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: gold;
+  background: var(--cor-gradiente);
+  box-shadow: var(--sombra-caixa);  
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.informações-pessoais {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin: 15px;
+  padding: 25px;
+  background: var(--cor-terciaria);
+  justify-content: space-around;
+  align-items: center;
+}
+
+#sobre-min, #habilidades {
+  background: var(--cor-radial-gradient); 
+  padding: 50px;
+  width: 35%;
+  border-radius: 20px;
+  box-shadow: var(--sombra-caixa);  
+}
+#sobre-min {
+  font-size: 24px;
+}
+
+#habilidades {
+  column-count: 2; /* Divide a lista em 2 colunas */
+  column-gap: 20px; /* Espaçamento entre as colunas */
 }
